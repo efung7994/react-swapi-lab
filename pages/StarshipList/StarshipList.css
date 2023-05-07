@@ -1,0 +1,13 @@
+.link-container {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.starship-list {
+  display: flex;
+}
