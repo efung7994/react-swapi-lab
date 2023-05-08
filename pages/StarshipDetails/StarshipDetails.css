@@ -1,0 +1,21 @@
+.starship-details {
+  background-color: lightblue;
+  width: 250px;
+}
+
+.starship-container {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#return{
+  color: black;
+}
+
+#return:hover{
+  color:blue;
+}

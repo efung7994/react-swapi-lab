@@ -20,9 +20,9 @@ const StarshipList = () => {
       <h1>Starships</h1>
       <main className="starship-list">
         {starshipList.map((starship) => 
-          <div className="link-container" key={starship.name}>
+          <button className="link-container" key={starship.name}>
             <Link to={`${starship.url.slice('21')}`} className="starship-link">{starship.name}</Link>
-          </div>  
+          </button>  
         )}
       </main>
     </>
